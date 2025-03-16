@@ -14,4 +14,6 @@ public class JavaTeamApplication {
         System.out.println("Hello word - Степан Лапиков");
         System.out.println("Для запроса PULL REQUEST - Степан Лапиков"); // добавил 16.03.2025 в 11:44
         System.out.println("Проверяю, работает ли привязка SCRUM-4"); // добавил Степан Лапиков 16.03.2025 в 13:59
+        System.out.println("проверка"); //Степан
+
 }
