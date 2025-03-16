@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p><a href="/">Главная</a> | Пользователи</p>
+    <table>
+        <tr>
+            <th>id</th>
+            <th>active</th>
+            <th>email</th>
+            <th>name</th>
+            <th>password</th>
+            <th>surname</th>
+            <th>username</th>
+        </tr>
+        <tr th:each="u : ${users}">
+            <td th:text="${u.id}">id</td>
+            <td th:text="${u.active}">Активный пользователь или нет</td>
+            <td th:text="${u.email}">Email</td>
+            <td th:text="${u.name}">Имя пользователя</td>
+            <td th:text="${u.password}">Пароль</td>
+            <td th:text="${u.surname}">Фамилия</td>
+            <td th:text="${u.username}">Логин</td>
+        </tr>
+    </table>
+</body>
+</html>
