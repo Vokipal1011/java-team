@@ -12,5 +12,5 @@ public class JavaTeamApplication {
 
     public static void main(String[] args) {
         System.out.println("Hello word - Степан Лапиков");
-    }
+        System.out.println("Для запроса PULL REQUEST - Степан Лапиков"); // добавил 16.03.2025 в 11:44
 }
