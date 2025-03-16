@@ -16,4 +16,5 @@ public class JavaTeamApplication {
         System.out.println("Проверяю, работает ли привязка SCRUM-4"); // добавил Степан Лапиков 16.03.2025 в 13:59
         System.out.println("проверка"); //Степан
 
+    }
 }
