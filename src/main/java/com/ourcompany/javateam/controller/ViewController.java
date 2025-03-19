@@ -9,4 +9,11 @@ public class ViewController {
     public String viewController() {
         return"blog";
     }
+
+    @GetMapping("/forus")
+    public String ForUsController()
+    {
+        return "forus";
+    }
+
 }
